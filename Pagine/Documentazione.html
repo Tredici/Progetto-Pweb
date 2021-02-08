@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Documentazione</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+<a href="../index.php">Indietro</a><br>
+        
+<h1>DOCUMENTAZIONE</h1>
+
+La presente doc. è volutamente spartana perché mi aspetto la si voglia 
+consultare facilmente anche senza utilizzare un browser.
+
+<br>
+
+Ulteriori informazioni sono presenti in fondo.
+
+<h2>Per iniziare subito:</h2>
+
+<h3>Scopo</h3>
+Permettere di gestire un "circolo di biliardino" fornendo la possibilità di organizzare incontri, registrarne i risultati e gestendo una classifica. 
+
+<h3>Sintesi estrema dell'utilizzo</h3>
+Si consiglia di leggere anche il seguito per maggiore chiarezza, sebbene non sia necessario a utilizzare il sito per il suo scopo principale.
+<ol>
+    <li>Fare una richiesta di iscrizione
+    <li>Attendere che l'admin eventualmente la accetti
+    <li>Diviene finalmente accedere alla parte protetta
+    <li>Leggere le spiegazioni nella Home.
+    <li>Eventualmente: mettere dei post personali nella propria pagina personale (è possibile rimuoverli poi) e una propria foto (basta premere sull'immagine per farlo, chiaramente si potrà cambiarla).
+    <li>Eventualmente: curiosare nelle pagine altrui.
+    <li>Andare nella bacheca e postare o sottoscrivere un annuncio per giocare poi una partita.
+    <li>Aspettare che 3 persone sottoscrivano l'annuncio.
+    <li>Giocare.
+    <li>Registrare il risultato.
+    <li>Confermarlo TUTTI!
+    <li>La partita viene finalmente registrata come giocata.
+    <li>Vedere come è cambiata la propria posizione in classifica.
+</ol>
+
+<h3>Per provare:</h3>
+<p> Seguono le credenziali di 4 utenti per fare dei test.
+<ul>
+    <li>Admin: username="Superuser" pwd="pass"
+    <li>Utente: username="G2" pwd="G2"
+    <li>Utente: username="G3" pwd="G3"
+    <li>Utente: username="G4" pwd="G4"
+</ul>
+
+<h3>Importante!</h3>
+<ul>
+    <li>Creare il db con il file incluso nella cartella del progetto.
+    <li>Attivare l'event scheduler del server MySQL!
+</ul>
+
+<h2>Alcune informazioni ulteriori</h2>
+
+<h3>Premessa</h3>
+Il sito web da me prodotto è pensato per essere utilizzato solamente da me e da 
+un ristretto gruppo di amici (in totale saremmo in poche decine a utilizzarlo) e 
+sarà reso accessibile solamente dall'interno di una rete privata in nostro 
+possesso. Non sarebbe soggetto quindi a tutti i pericoli e ai problemi di carico
+dei siti ordinari. Inoltre, dato che alla fine è pensato per essere visto da 
+amici, il tono nelle pagine che compongono il sito è volutamente scherzoso.
+
+<h3>Presentazione e spiegazione della scelta</h3>
+Io e i miei amici amiamo (tempo e pandemie permettendo) giocare a biliardino e 
+un po' di tempo fa, chiacchierando con uno di loro, mi venne in mente di mettere su
+un sito, o un sistema equivalente, per gestire un sistema di ranking per vedere 
+chi è il secondo più bravo tra noi (il primo non sono io), ragion per cui ho 
+deciso di realizzare questo progetto.
+
+
+<h3>Descrizione di alcune caratteristiche</h3>
+<h4>Utenti</h4>
+V'è un unico AMMINISTRATORE (username: "Superuser", pwd: "pass") il cui account è inserito direttamente nel DB. <br>
+Tutti gli altri utenti si devono iscrivere.
+<h4>Iscrizione</h4>
+Il meccanismo di iscrizione è assai inusuale e avviene in due fasi, al fine di ostacolare eventuali "furbetti" che 
+potrebbero pensare di creare più account per ingrossare i loro punteggi.
+<h5>Richiesta</h5>
+Un potenziale utente inserisce i dati che lo identificano cosicché un admin (io)
+possa sapere chi è.
+<h5>Accettazione</h5>
+L'admin accetta la richiesta e l'utente può finalmente iniziare ad accedere. 
+Da quel momento in poi si ha piena libertà di navigare per il sito.
+<h4>La Pagina personale</h4>
+Ogni utente dispone di una pagina personale nella quale può liberamente postare dei post, visibili ai soli iscritti.
+Tale possibilità è offerta per fini scherzosi.
+
+
+<h3>Per concludere</h3>
+Una descrizione completa di tutte le peculiarità del progetto richiederebbe 
+molteplici pagine, ragion per cui ho deciso di ometterla da questa breve spiegazione.
+I dettagli rimanenti sarò felice di esporla in sede di valutazione dello stesso.
+
+    </body>
+</html>

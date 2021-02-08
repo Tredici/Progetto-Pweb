@@ -1,0 +1,27 @@
+/* 
+    Created on : 25-Jul-2020, 15:44:42
+    Author     : marco
+*/
+
+section {margin-bottom: 1cm;}
+
+section.regolamento {
+    padding: 0.5cm;
+    border-radius: 2cm;
+    background-color: darkgrey;
+}
+
+section.regolamento > div {border-radius: 1cm;padding: 0.5cm;background-color: cornsilk;margin-bottom: 0.5cm;padding-top: 0.5cm;text-align: left;}
+
+div.regolamento h3 {margin-top: 0;}
+
+
+div.regolamento > div {
+    text-align: left;
+}
+
+dl dt {font-size: 14px;font-weight: 600;/* display: inline; */}
+
+dl dd {
+        font-size: 13px;
+}

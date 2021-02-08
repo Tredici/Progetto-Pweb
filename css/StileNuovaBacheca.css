@@ -1,0 +1,111 @@
+/* 
+    Created on : 30-Jun-2020, 21:49:06
+    Author     : marco
+*/
+
+
+div.bacheca {
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    margin-bottom: 1cm;
+    border-radius: 2.5cm;
+}
+
+input[name="datetime"] {
+    width: 4.6cm;
+}
+
+tr#NuovoAnnuncio th, tr#NuovoAnnuncio td {
+    background-color: silver;
+    font-family: monospace;
+    font-size: 15px;
+    border-style: outset;
+}
+
+
+table.bacheca caption {
+    margin-bottom: 0.5cm;
+    font-size: 50px;
+}
+
+table.bacheca button.button, table.bacheca input.button {
+    background-color: aliceblue;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    display: block;
+    margin: 0.5mm;
+}
+
+table.bacheca tbody ul.giocatori {
+    list-style: none;
+    padding: 0;
+}
+
+/* A me i colori piacciono così. */
+table.bacheca thead th {
+    font-size: 24px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: orange;
+    border-style: outset;
+    border-color: orange;
+}
+
+table.bacheca thead th:nth-child(3) {width: 3.7cm;}
+
+table.bacheca thead th:nth-child(4) {
+    width: 4.5cm;
+}
+
+table.bacheca tbody th, table.bacheca tbody td {
+    background-color: aquamarine;
+    border: inset;
+}
+
+td#SpazioTextarea {
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+}
+
+table.bacheca thead th:nth-child(7) {
+    width: 2.4cm;
+}
+
+table.bacheca td {
+    border-width: thin;
+}
+
+table.bacheca {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px 20px;
+}
+
+table.bacheca a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+table.bacheca textarea {
+    resize: vertical;
+    width: 95%;
+    min-height: 1.2cm;
+}
+
+table.bacheca .notes {
+    border-style: groove;
+    border-color: black;
+    background-color: aliceblue;
+    border-width: thin;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-right: 1mm;
+    margin-left: 1mm;
+    /* benché sia deprecato è ancora supportato
+       e molto utile */
+    word-break: break-word;
+    width: 90%;
+    resize: vertical;
+    min-height: 2cm;
+}

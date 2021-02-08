@@ -1,0 +1,134 @@
+/* 
+    Created on : 23-Jul-2020, 19:37:35
+    Author     : marco
+*/
+
+button.bottoneGestione {font-size: 20px;font-family: fantasy;margin: auto;margin-left: 2mm;margin-right: 2mm;width: 30%;border: solid;}
+
+textarea.notes {
+    resize: vertical;
+    min-height: 1.5cm;
+    width: 100%;
+    /* background-color: white; */
+    /* color: white; */
+    border-color: black;
+    border-width: thin;
+}
+
+button.bottoneGestione.accettazione {
+    background-color: yellow;
+}
+
+button.bottoneGestione.rifiuto {
+    background-color: red;
+}
+
+button.bottoneGestione.annullamento {
+    background-color: greenyellow;
+}
+
+div#contenitore_tabella {
+    padding: 0.25cm;
+    border: solid;
+    margin: auto;
+    width: 85%;
+    border-radius: 2cm;
+    min-height: 8cm;
+}
+
+div.spazioBottoni {width: 70%;margin: 0.5cm auto;padding: 0.5cm;background-color: lightsteelblue;border-radius: 2cm;}
+
+div#copertura form {
+    margin-top: 1cm;
+}
+
+div#copertura form table {width: 80%;margin: auto;text-align: left;}
+
+div#copertura form table caption {
+    
+}
+
+div#copertura form table tr {
+    
+}
+
+div#copertura form table tr th {
+    
+}
+
+div#copertura form table tr td {
+    
+}
+
+div#copertura {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+div#copertura > div {position: relative;/* min-height: 50%; */width: 20cm;top: 25%;background-color: white;margin: auto;border-radius: 3cm;border: solid;}
+
+
+.button.respinta {background-color: red;}
+
+.button.accettata {
+    background-color: #f3fb47;
+}
+
+table#Richieste {border-collapse: separate;margin: auto;width: 100%;caption-side: top;margin-top: 0.5cm;margin-bottom: 2cm;border-spacing: 0 10px;}
+
+table#Richieste caption {font-size: 1.5em;font-weight: bolder;font-style: oblique;}
+
+table#Richieste thead tr {padding-top: 0.3em;padding-bottom: 0.3em;/* border: solid; */}
+
+table#Richieste thead tr th {
+    font-size: 20px;
+    border: solid;
+    border-style: outset;
+    border-color: darkgreen;
+    background-color: red;
+    border-color: orange;
+    padding: 0.25cm;
+}
+
+table#Richieste tbody tr.respinta {
+    background-color: #fff0f0;
+}
+
+table#Richieste tbody tr.attesa {
+    background-color: #c3f9c3;
+}
+
+table#Richieste tbody tr.accettata {
+    background-color: lightyellow;
+}
+
+table#Richieste thead tr th:last-child {
+    width: 2.5cm;
+    padding-left: 0.4mm;
+    padding-right: 0.4mm;
+}
+
+table#Richieste thead tr th:nth-child(6) {
+    width: 2.6cm;
+}
+
+table#Richieste thead tr th:nth-child(5) {
+    width: 1.6cm;
+}
+
+table#Richieste thead tr th:nth-child(4) {
+    width: 2.2cm;
+}
+
+table#Richieste tbody tr td {
+    border-style: inset;
+    overflow: hidden;
+    /* benché sia deprecato è ancora supportato
+       e molto utile */
+    word-break: break-word;
+}

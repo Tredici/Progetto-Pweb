@@ -1,0 +1,89 @@
+/* 
+    Created on : 20-Jul-2020, 17:05:50
+    Author     : marco
+*/
+
+div.risultatoGenerale {
+    margin-bottom: 2cm;
+}
+
+form.warning div#avvertimento {
+    display: block;
+}
+
+div#avvertimento {
+    margin: 1cm auto;
+    /* display: block; */
+    padding: 0.5cm;
+    background-color: orangered;
+    font-size: 25px;
+    width: 80%;
+    border-radius: 2cm;
+    border-color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    border-style: solid;
+    display: none;
+}
+
+form.warning {
+    background-color: red;
+    padding: 0.5cm;
+    border-radius: 2cm;
+}
+
+input.warning {
+    
+}
+
+div.Conferma {margin: 0.75cm;/* padding: 1cm; */margin-bottom: 1.5cm;}
+
+div.Conferma input {width: 48%;border-style: outset;padding: 1.5mm;font-size: 22px;border-width: thick;background-color: seashell;font-family: fantasy;}
+
+div.Conferma input:first-child {border-radius: 1cm 0 0 1cm;}
+
+div.Conferma input:last-child {
+    border-radius: 0 1cm 1cm 0;
+}
+
+div.risultatoGenerale h3 {
+    /* font-size: xx-large; */
+    font-size: 32px;
+}
+
+div.risultatoIncontro {background-color: aquamarine;padding: 1cm;width: 66%;margin: auto;border-radius: 1cm;border-style: inset;}
+
+div.risultatoIncontro table {
+    
+}
+
+div.partecipantiAnnuncio {margin: 1cm;padding: 1cm;border: solid;border-style: outset;background-color: snow;border-radius: 1cm;}
+
+div.partecipantiAnnuncio a {
+    color: black;
+    text-decoration: none;
+}
+
+div.datiAnnuncio {margin: 1cm;padding: 1cm;border: solid;border-style: outset;background-color: snow;border-radius: 1cm;}
+
+div.datiAnnuncio table {
+    border: solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div.datiAnnuncio table td {
+    border: solid;
+    width: 100%;
+}
+
+table.partecipantiAnnuncio {
+    border: solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.partecipantiAnnuncio td {
+    border: solid;
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+
+
+div#messaggioErrore {
+    margin-bottom: 1.25cm;
+}
+
+div.iscrizione {
+    margin-top: 2.5cm;
+}
+
+button.BottoneAttesa {padding: 0.5cm;font-size: 50px;margin: 3cm;width: 50%;font-family: fantasy;font-weight: 800;background-color: beige;border-style: dashed;border-width: thick;margin-top: 0.5cm;}
+
+button.BottoneAttesa.BottoneSuccesso {border-style: outset;background-color: springgreen;}
+
+button.BottoneAttesa.BottoneFallimento {border-style: inset;background-color: red;}
+
+#request_form, #divLogin {
+    margin-bottom: 0.5cm;
+}
+
+div#Credenziali {
+    margin:auto;
+    width: 7cm;
+}
+
+div.userdata {
+    margin-bottom: 0.45cm;
+    margin: 0.5cm;
+}
+
+.userdata input {
+    padding: 0.1cm;
+    /* text-align:right; */
+    /*float:right;*/
+    width: 100%;
+    margin-top: 5px;
+    border-style: dashed;
+    border-width: medium;
+    background-color: white;
+    border-color: black;
+}
+
+div#Credenziali div.userdata label {
+
+}
+
+form table tfoot{
+    border-top-width: 0.5cm;
+}
+
+form table tfoot td{
+    width: 50%;
+}
+
+form table tfoot td input{
+    width: 90%;
+}
+
+
+div.iscrizione form table {
+    text-align: left;
+}
+
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0.2cm;
+}
+
+table caption {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0.2cm;
+    font-weight: bold;
+    font-size: 1.17em;
+    margin-top: 18.720px;
+    margin-bottom: 18.720px;
+}
+
+input.userdata {
+    padding: 0.1cm;
+    /* text-align:right; */
+    /*float:right;*/
+    width: 100%;
+    margin-top: 5px;
+    border-style: dashed;
+    border-width: medium;
+    background-color: white;
+    border-color: black;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}

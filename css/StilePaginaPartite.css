@@ -1,0 +1,73 @@
+/* 
+    Created on : 26-Jul-2020, 18:32:23
+    Author     : marco
+*/
+
+
+div#Partite {margin: auto;margin-bottom: 2cm;}
+
+table.partite {width: 100%;border-collapse: separate;border-spacing: 10px 10px;}
+
+table.partite a {text-decoration: none;color: black;}
+
+table.partite caption {
+    margin: 0.5cm;
+    padding: 0.5cm;
+    font-size: 55px;
+}
+
+table.partite tbody td.s1, table.partite tbody td.s2 {
+    width: 4cm;
+}
+
+table.partite tbody td.risultato {
+    width: 3cm;
+}
+
+table.partite tbody td {
+    font-size: 20px;
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    font-family: cursive;
+}
+
+table.partite tbody tr.vittoria td {
+    background-color: lawngreen;
+    border-style: outset;
+}
+
+table.partite tbody tr.sconfitta td {
+    background-color: darkgray;
+    border-style: inset;
+}
+
+table.partite thead th {
+    background-color: orange;
+    padding: 0.5cm;
+    font-size: x-large;
+    border-style: double;
+}
+
+div#segnaposto {
+    margin: auto;
+    padding: 0.5cm;
+    background-color: #b3b5c3;
+    width: 50%;
+    margin-bottom: 2cm;
+    border-radius: 3cm;
+    font-size: 30px;
+    border-style: solid;
+    font-family: monospace;
+}
+
+div#NoPartite {
+    margin: auto;
+    padding: 1cm;
+    background-color: red;
+    width: 50%;
+    margin-bottom: 2cm;
+    border-radius: 3cm;
+    font-size: 30px;
+    border-style: solid;
+    font-family: cursive;
+}

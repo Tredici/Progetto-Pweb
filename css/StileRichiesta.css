@@ -1,0 +1,38 @@
+/* 
+    Created on : 05-May-2020, 10:18:45
+    Author     : marco
+*/
+
+div.iscrizione form table {
+    text-align: left;
+}
+
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0.2cm;
+}
+
+table caption {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0.2cm;
+    font-weight: bold;
+    font-size: 1.17em;
+    margin-top: 18.720px;
+    margin-bottom: 18.720px;
+}
+
+input.userdata {
+    padding: 0.1cm;
+    width: 100%;
+    margin-top: 5px;
+    border-style: dashed;
+    border-width: medium;
+    background-color: white;
+}
+
+tr {
+    border: 1cm;
+}

@@ -1,0 +1,207 @@
+/* 
+    Created on : 08-Mar-2020, 16:19:09
+    Author     : marco
+*/
+
+div#caricamentoFoto {
+    padding: 0.3cm;
+    margin-bottom: 0.5cm;
+}
+
+form#NuovaFoto label {display: block;font-size: x-large;font-weight: bolder;font-family: cursive;margin-bottom: 2mm;}
+
+form#NuovaFoto input#FotoFile {margin: auto;font-size: inherit;}
+
+form#NuovaFoto input.button {
+    margin: 1em;
+    font-size: 20px;
+    width: 35%;
+    border-radius: 1cm;
+    font-style: italic;
+}
+
+form#NuovaFoto {
+    background-color: darkorange;
+    margin: auto;
+    margin-bottom: 1cm;
+    border-radius: 3cm;
+    min-height: 2.5cm;
+    width: 50%;
+    border: solid;
+}
+
+
+div.post button.button.cancellazione {
+    margin: 0 auto 0.3cm auto;
+    width: 75%;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 1cm;
+    display: none;
+    font-style: italic;
+    letter-spacing: 0.5mm;
+}
+
+div.post:hover button.button.cancellazione {
+    display: inline;
+}
+
+form#NuovoPost {
+    background-color: darkgrey;
+    width: 95%;
+    margin: auto;
+    padding: 0.25cm;
+    border-radius: 0.75cm;
+    border: solid;
+    border-color: black;
+}
+
+form#NuovoPost input.button {
+    width: 47%;
+    padding: 0.2cm;
+    margin: 0 0.1cm 0 0.1cm;
+    background-color: snow;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.3mm;
+    font-size: 22px;
+}
+
+input[name="title"] {width: 83.37%;padding: 2mm;font-family: unset;}
+
+textarea[name="content"] {
+    width: 99%;
+    margin-bottom: 0.2cm;
+    height: 3cm;
+    resize: vertical;
+}
+
+form#NuovoPost div.contenuto label:first-child {
+    width: 20%;
+}
+
+form#NuovoPost div.contenuto {
+    background-color: gainsboro;
+    border-radius: 0.75cm;
+    width: 98%;
+    margin: auto;
+    text-align: left;
+}
+
+form#NuovoPost div div:nth-child(2) {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+form#NuovoPost div div {
+    padding: 0.25cm;
+    border-radius: 0.75cm;
+    margin: 0.25cm;
+}
+
+form#NuovoPost div.buttons {
+    background-color: currentColor;
+    width: 95%;
+    margin: auto;
+    padding: 0.3cm;
+    border-radius: 1cm;
+}
+
+section.presentazione {
+    margin: 0 1cm 1cm 1cm;
+    border-radius: 1.5cm;
+    border-color: black;
+    border: solid;
+    padding-bottom: 0.5cm;
+    background-color: azure;
+}
+
+section.presentazione table {
+    width: 60%;
+    border: solid;
+    border-radius: 0.5cm;
+    text-align: left;
+    background-color: seashell;
+}
+
+dl {margin: auto;
+    width: 6.6cm;
+    text-align: start;
+}
+
+dl dd {
+    font-weight: bold;
+    font-size: initial;
+}
+
+body {
+    text-align: center;
+}
+
+
+main.PaginaPersonale {
+    width: 25cm;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+span.augurio{
+    text-decoration: line-through;
+}
+
+nav {
+    width: 100%;
+    /*display: block;*/
+    /*height: 1cm;*/
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+nav.navbar > ul {
+    list-style-type: none;
+    display: block;
+}
+    
+nav.navbar > ul > li {
+    margin: unset;
+    /*float: left; */
+    display: block;
+    /*padding: 0.3cm;*/
+}
+
+/*nav.navbar > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}*/
+
+img.profilo {
+    max-height: 5cm;
+    max-width: 10cm;
+    border-radius: 0.5cm;
+    border: solid;
+}
+
+#addPost {
+    background-color: activeborder;
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+    height: 0.95cm;
+}
+
+div.post {border-radius: 0.5cm;background-color: silver;margin-top: 1em;margin-bottom: 1em;margin-right: 0.5em;margin-left: 0.5em;padding: 0.001cm;}
+
+div.post h3 {margin-top: 0.35em;margin-bottom: 0.5em;width: 98%;margin-right: auto;margin-left: auto;border-radius: 0.4cm;background-color: lawngreen;padding: 0.25em;}
+
+div.post p {
+    margin: 0 auto 0.4cm auto;
+    border-radius: 0.3cm;
+    background-color: aliceblue;
+    width: 98%;
+    padding: 0.2em;
+    white-space: break-spaces;
+    word-break: break-word;
+}

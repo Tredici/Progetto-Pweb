@@ -1,0 +1,101 @@
+/*
+ * Stile della pagina con la classifica
+ */
+/* 
+    Created on : 22-Jul-2020, 22:09:48
+    Author     : marco
+*/
+
+div.info {
+    padding: 1em;
+    background-color: aquamarine;
+    border-radius: 5cm;
+    border-style: double;
+    border-width: thick;
+}
+
+div.info h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+div.info p {
+    
+}
+
+div.info span {
+    font-family: monospace;
+    display: block;
+    font-size: xx-large;
+    margin-top: 0.3cm;
+    margin-bottom: 0.3cm;
+}
+
+table#Classifica {
+    /* border: solid; */
+    margin: auto;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    /* border-color: black; */
+    border-collapse: separate;
+    /* border-spacing: 0 10px; */
+    width: 100%;
+}
+
+table#Classifica td {
+}
+
+table#Classifica caption {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+
+table#Classifica tbody tr:nth-child(2n) {background-color: greenyellow;}
+
+table#Classifica tbody tr:nth-child(2n+1) {background-color: aquamarine;}
+
+table#Classifica thead tr th {
+    border: solid;
+    border-color: black;
+    border-style: double;
+    border-width: medium;
+}
+
+table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0.2cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+}
+
+tr {
+    border: solid;
+    border-color: black;
+}
+
+table#Classifica thead tr {
+    background-color: orange;
+}
+
+
+table#Classifica thead th {
+    font-size: 20px;
+    /* margin-bottom: 0.3cm; */
+    /* margin-bottom: 0.5cm; */
+    border: solid;
+}
+
+table#Classifica tbody tr td:first-child {
+    font-size: x-large;
+}
+
+table#Classifica tbody tr td:nth-child(2) a {
+    color: black;
+    text-decoration: none;
+    /* benché sia deprecato è ancora supportato
+       e molto utile */
+    word-break: break-word; 
+}
